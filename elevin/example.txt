@@ -1,2 +1,3 @@
 Some example text file.
-Even more example text file.
+Line 2 of text.
+Noteworthy, Jesus rules!
