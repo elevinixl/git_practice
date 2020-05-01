@@ -1,3 +1,8 @@
 Some example text file.
+<<<<<<< HEAD
 Even more example text file.
 
+=======
+
+Noteworthy, Jesus rules!
+>>>>>>> adb5b178184d8d2294de500055dea7ea4cf81a4f
