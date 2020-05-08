@@ -9,6 +9,9 @@
 idea/
 .idea/
 
+# PyCharm virtual environment (added by jmejia)
+venv/
+
 # User-specific files
 *.rsuser
 *.suo
