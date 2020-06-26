@@ -1,48 +1,49 @@
-Ex=[1,2,3,4,5,6]
+ex=[1,2,3,4,5,6]
 #1
-def listLength(Ex):
-    return len(Ex)
-print('List Length: '+str(listLength(Ex)))
+def listResult(ex):
+    return len(ex)
+print('List length: '+str(listResult(ex)))
 
 #2
-def listLength(Ex):
-    if len(Ex)==Ex[-1]:
-        return Ex[0]
+def listResult(ex):
+    if len(ex)==ex[-1]:
+        return ex[0]
     else:
         print('Invalid!')
-print('1st list element, validated: '+str(listLength(Ex)))
+print('1st list element, validated: '+str(listResult(ex)))
 
 #3
-def listLength(Ex):
-    return Ex[2]
-print('3rd list element: '+str(listLength(Ex)))
+def listResult(ex):
+    return ex[2]
+print('3rd list element: '+str(listResult(ex)))
 
-#4
-def listLength(Ex):
-    return Ex[-1]
-print('Last list element, negative index: '+str(listLength(Ex)))
-
-def listLength(Ex):
-    return Ex[5:]
-print('Last list element, positive Index: '+str(listLength(Ex)))
+#4a
+def listResult(ex):
+    return ex[-1]
+print('Last list element, negative index: '+str(listResult(ex)))
+#4b
+def listResult(ex):
+    var1= len(ex)-1
+    return ex[var1]
+print('Last list element, positive index: '+str(listResult(ex)))
 
 #5
-def listLength(Ex):
-    return Ex[1:5]
-print('2nd through 5th elements: '+str(listLength(Ex)))
+def listResult(ex):
+    return ex[1:5]
+print('2nd through 5th elements: '+str(listResult(ex)))
 
 #6
-def listLength(Ex):
-    return Ex[0:4]
-print('1st through 4th elements: '+str(listLength(Ex)))
+def listResult(ex):
+    return ex[0:4]
+print('1st through 4th elements: '+str(listResult(ex)))
 
 #7
-def listLength(Ex):
-    return Ex[2:]
-print('3nd through remainder of elements: '+str(listLength(Ex)))
+def listResult(ex):
+    return ex[2:]
+print('3nd through remainder of elements: '+str(listResult(ex)))
 
 #8
-def listLength(Ex):
-    Ex[1]=Ex[0]
-    return Ex[:4]
-print('2nd element replaced by first element: '+str(listLength(Ex)))
+def listResult(ex):
+    ex[1]=ex[0]
+    return ex[:4]
+print('2nd element replaced by first element: '+str(listResult(ex)))
