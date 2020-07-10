@@ -47,10 +47,10 @@ print(listResult(ex3))
 
 #6
 #def listResult(ex5):
-    print('\n')
-    for i in enumerate(ex5):
+#    print('\n')
+ #   for i in enumerate(ex5):
 
-print(listResult(ex5))
+#print(listResult(ex5))
 
 
 
